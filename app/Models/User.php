@@ -62,4 +62,7 @@ class User extends Authenticatable
             'password' => 'hashed',
         ];
     }
+    function companies(){
+        $this->hasMany(companies::class, 'owner_id');;
+    }
 }

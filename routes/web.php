@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\MovieController;
 use App\Http\Controllers\facultyController;
+use App\Http\Controllers\companyController;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
@@ -19,3 +20,4 @@ Route::middleware([
 });
 Route::get('/movie',[MovieController::class,'index']);
 Route::get('/faculty',[facultyController::class,'index']);
+Route::get('/Company',[companyController::class,'index']);
