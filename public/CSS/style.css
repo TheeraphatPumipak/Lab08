@@ -1,0 +1,43 @@
+*{
+    margin: ;
+    padding: 0;
+}
+nav{
+    background-color: black;
+    justify-content: center;
+    display: flex;
+    }
+    nav a{
+        color: white;
+        text-decoration: none;
+
+    }
+nav ul{
+    display: flex;
+}
+nav li{
+    margin-left: 15px;
+}
+header,h2{
+    text-align: center;
+    
+}
+form{
+    align-items: center;
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+
+}
+form p{
+    margin: 0px;
+}
+table{
+    border-collapse:collapse ;
+    margin: 0 auto;
+
+}
+table tr, th ,td {
+    border: 1px solid coral;
+    padding: 20px;
+}
