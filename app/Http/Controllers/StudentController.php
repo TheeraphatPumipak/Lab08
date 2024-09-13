@@ -20,4 +20,8 @@ class StudentController extends Controller
         $new_menu->save();
         return redirect()->back();
     }
+    function Delete($id){
+        student::destroy($id);
+        return redirect()->back();
+    }
 }

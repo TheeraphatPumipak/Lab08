@@ -24,3 +24,4 @@ Route::get('/faculty',[facultyController::class,'index']);
 Route::get('/Company',[companyController::class,'index']);
 Route::get('/students',[StudentController::class,'index']);
 Route::post('/students/insert',[StudentController::class,'insert']);
+Route::get('/students/delete/{id}',[StudentController::class,'Delete'])->name('students/delete');

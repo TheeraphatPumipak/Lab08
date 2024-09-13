@@ -14,30 +14,72 @@ nav{
     }
 nav ul{
     display: flex;
+    
 }
 nav li{
     margin-left: 15px;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #555;
+}
+nav li:hover{
+    margin-left: 15px;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #777;
 }
 header,h2{
     text-align: center;
     
 }
-form{
+.form{
     align-items: center;
     background-color: aliceblue;
+    width: 500px;
+    display: flex;
+    padding: 10px;
+    margin: 0 auto;
+    color:  #4CAF50;
+    border-radius: 19px;
     display: flex;
     flex-direction: column;
 
+
 }
-form p{
-    margin: 0px;
+.form .input{
+    border-radius: 5px;
+    padding: 10px ;
+    width: 300px;
 }
-table{
+form label{
+    text-align:left;
+    margin: 5x;
+    }
+    table{
     border-collapse:collapse ;
     margin: 0 auto;
 
 }
 table tr, th ,td {
-    border: 1px solid coral;
+    border: 1px solid rgb(59, 45, 40);
     padding: 20px;
+}
+.button{
+    background-color:  #f87f76;
+    border-radius: 5px;
+    color: azure;
+    padding: 5px;
+}
+.submit{
+    background-color:  #334e30;
+    border-radius: 5px;
+    color: azure;
+    padding: 5px;
+}
+table{
+    margin-top: 100px;
+}
+table th{
+    background-color:#333;
+    color: azure;
 }
